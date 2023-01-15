@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(gym.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+}
+.nav-area{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    
+}
+.nav-area li{
+    margin: 0 10px;
+    text-transform: uppercase;
+
+}
+.nav-area li a{
+    transition: .3s;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.nav-area li a:hover{
+    color: #d22;
+}
+.btn-area{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #d22;
+}
+a{
+    text-decoration: none;
+}
+.card-title{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    border-radius: 2px;
+    background: rgb(255, 115, 0);
+}
+.navdiv{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+   
+
+}
+.navuldiv{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 60%;
+    
+}
+.sm1{
+    width: 40%;
+}
+.navlog{
+    margin-right: 20px;
+}
+.navarea2{
+    margin-top: -20px;
+}
+.sm2{
+    margin-top: -20px;
+}
